@@ -37,6 +37,14 @@ body {
     font-size: 100px;
 }
 
+.author{
+    position: absolute;
+    font-size: 12px;
+    font-style: italic;
+    bottom: 1%;
+    color: white;
+}
+
 #bkg{
     width: 600px;
     display: block;
@@ -133,3 +141,9 @@ a {
     color: #596D48;
     font-weight: bold;
 }
+
+.author a {
+    color: white;
+}
+
+
