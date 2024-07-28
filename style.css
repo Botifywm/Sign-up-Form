@@ -1,0 +1,135 @@
+@font-face{
+    font-family: "norse-bold";
+    src: url("Norse-Bold.otf") format("opentype");
+}
+
+body {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.side-image{
+    position: relative;
+}
+
+.icon {
+    position: absolute;
+    top: 19%;
+    width: 100%;
+    height: 160px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+#odin-icon {
+    position: relative;
+    width: 100px;
+    left: 28%;
+    top: 8%;
+}
+
+.icon-span {
+    position: relative;
+    top: -10%;
+    left: 28%;
+    color: white;
+    font-family: "norse-bold";
+    font-size: 100px;
+}
+
+#bkg{
+    width: 600px;
+    display: block;
+    flex: 1;
+}
+
+.container-form {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.desc {
+    flex: 1;
+    padding-left: 48px;
+    background-color: #eeeee4;
+    flex-direction: column;
+    align-content: flex-end;
+    padding-bottom: 32px;
+    font-weight: 600;
+}
+
+.middle-form {
+    display: flex;
+    flex: 0.9;
+    padding-left: 48px;
+    flex-direction: column;
+}
+
+.form-header {
+    font-family: monospace;
+    font-size: 16px;
+}
+
+.s1, .s2, .s3 {
+    display: flex;
+    justify-content: start;
+    flex: 1;
+}
+
+.fname, .email, .password{
+    margin-right: 64px;
+}
+
+label {
+    font-family: monospace;
+    font-size: small;
+}
+
+input {
+    display: block;
+    width: 200px;
+}
+
+input:focus {
+    border-color: 20px blue;
+    box-shadow: 0 0 5px blue;
+}
+
+input:user-valid {
+    border-color: green;
+}
+
+input:user-invalid{
+    border-color: red;
+}
+
+
+.base {
+    flex: 1;
+    padding-left: 48px;
+    background-color: #eeeee4;
+    padding-top: 32px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+button {
+    padding: 8px 24px;
+    background-color: #596D48;
+    color: #eeeee4;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+a {
+    text-decoration: none;
+    color: #596D48;
+    font-weight: bold;
+}
